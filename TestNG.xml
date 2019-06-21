@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tests">
+	
+	<test name="Regression Testing">
+		<classes>
+			<class name="com.matrix.tests.AppLoginTest"></class>
+			<!-- <class name="com.tg.testCase.SingaporeGameTestCase"></class> -->
+		</classes>
+	</test>
+	
+</suite>
