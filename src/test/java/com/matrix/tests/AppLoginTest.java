@@ -9,11 +9,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
+import com.matrix.base.Base;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class AppLoginTest {
+public class AppLoginTest extends Base {
 	
 	@Test
 	public void loginTest() throws MalformedURLException {
